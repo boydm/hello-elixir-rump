@@ -39,7 +39,7 @@ ERL_BIN_SEARCH_PATH=$(LOCAL_PATH):$(LOCAL_PATH)/build/rumprun-packages/erlang/bu
 
 build/elixir:
 	(cd build; \
-	git clone https://github.com/elixir-lang/elixir.git)
+	git clone -b v1.3 https://github.com/elixir-lang/elixir.git)
 
 
 build/tools/usr/local/bin/elixir: build/elixir
