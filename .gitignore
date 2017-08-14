@@ -8,3 +8,6 @@ erl_crash.dump
 .rumprun_tuple
 .rumprun_packages_built
 hello-elixir-rump.iml
+*.iso
+/_deployed*
+serial.log
